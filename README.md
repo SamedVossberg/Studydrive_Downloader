@@ -1,0 +1,1 @@
+This is a StudyDrive loader extension for Chrome
