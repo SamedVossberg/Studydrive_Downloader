@@ -1,7 +1,17 @@
-// content.js
-function fetchApi(url) {
-    // ... (use the code from the previous response)
+let pdfUrl;
+
+chrome.webRequest.onCompleted.addListener(
+  (details) => {
+    pdfUrl = details.url;
+    console.log(details);
+  },
+  {
+    urls: ["*://*.studydrive.net/d/prod/documents/*"],
   }
-  
-  const apiUrl = 'https://example.com/api/data';
-  fetchApi(apiUrl);
+);
+
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message === "getDownloadUrl") {
+    sendResponse(pdfUrl);
+  }
+});
