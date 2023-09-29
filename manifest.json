@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Studydrive Skipper",
+    "name": "Studydrive Downloader",
     "version": "1.0.0",
-    "author": "Sam Vossberg",
-    "description": "Download all Studydrive files.",
+    "author": "S. Voss.",
+    "description": "Download all Studydrive files. The Download button on the webiste will turn greend and work as it used to.",
     "permissions": ["activeTab", "scripting", "webRequest"],
     "host_permissions": ["*://*.studydrive.net/"],
     "icons": {
