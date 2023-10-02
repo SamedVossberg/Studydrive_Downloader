@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Studydrive Downloader",
     "version": "0.0.0.1",
-    "author": "S. Voss.",
+    "author": "Sam. Voss.",
     "description": "Download all Studydrive files. The Download button on the webiste will turn green and work as it used to.",
     "permissions": ["activeTab", "scripting", "webRequest"],
     "host_permissions": ["*://*.studydrive.net/"],
