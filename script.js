@@ -25,7 +25,7 @@ newDownloadButton.classList.add(
 
 newDownloadButton.innerHTML = `
     <i class="w-5 h-5 mr-1 icon icon-downloads"></i>
-    <span class="text-sm leading-tight" style="color: forestgreen;">${totalDownloads} (hacked)
+    <span class="text-sm leading-tight" style="color: forestgreen;">${totalDownloads} (changed)
     </span>
 `;
 
