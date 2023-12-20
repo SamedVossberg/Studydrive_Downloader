@@ -1,4 +1,4 @@
-This tool is currently not working anymore due to studydrives changes. 
+This tool is currently not working anymore due to studydrive's changes. 
 
 
 
